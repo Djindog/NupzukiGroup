@@ -4,8 +4,6 @@ yoon/generated_data*/
 yoon/eval_out*/
 yoon/tested*/
 yoon/diagnosis/
-yoon/checkpoints/*.pth
-yoon/train_log.txt
 
 # numpy / pytorch artifacts
 *.npy
