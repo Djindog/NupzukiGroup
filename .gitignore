@@ -1,3 +1,30 @@
-*            
-!yoon       
-!.gitignore  
+# ── Large data / binary output — never commit ─────────────────────────────────
+assets/
+yoon/generated_data*/
+yoon/eval_out*/
+yoon/tested*/
+yoon/diagnosis/
+yoon/checkpoints/*.pth
+yoon/train_log.txt
+
+# numpy / pytorch artifacts
+*.npy
+*.npz
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.log
+*.tmp
+.DS_Store

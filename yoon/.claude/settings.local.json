@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda run *)",
+      "Bash(python3 -c \"import spconv; print\\(spconv.__version__\\); import spconv.pytorch as spconv_pt; print\\(dir\\(spconv_pt\\)\\)\")",
+      "Bash(python3 *)"
+    ]
+  }
+}
